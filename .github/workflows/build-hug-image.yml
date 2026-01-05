@@ -20,7 +20,7 @@ jobs:
       packages: write
 
     steps:
-      - name: Checkout repository
+      - name: Checkout repositoryCheckout repositoryCheckout repositoryCheckout repositoryCheckout repositoryCheckout repositoryCheckout repositoryCheckout repository
         uses: actions/checkout@v4
         with:
           ref: hug 
@@ -41,7 +41,7 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/${{ github.repository_owner }}/hugws:latest
+            ghcr.io/${{ github.repository_owner }}/ppidcvpn:latest
           labels: |
             org.opencontainers.image.source=https://github.com/${{ github.repository }}
             org.opencontainers.image.description=http server
